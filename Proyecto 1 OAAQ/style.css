@@ -9,14 +9,19 @@ body {
 	
 }
 
-input[type="user"], input[type="password"]{
+input[type="user"], input[type="password"], input[type="text"]{
+	width: 31%;
+	padding: 1%;
+}
+
+#user, #password{
 	max-width: 67%;
 	margin-top: 8%;
 	margin-bottom: 2%;
 	text-align: center;
 	margin: 7% 0% 0% 23%;
+	padding: 1% 11% 1% 8%;
 }
-
 
 /**
 p.ex {
@@ -100,6 +105,20 @@ div.img img{
     width: 100px;
     margin: 6% 0% 0% 1%;
 }
+
+#boton_registroU{ 
+	background: linear-gradient(#cc66dd 0%,#990099 100%);
+    float: right;
+    text-decoration: none;
+    border: solid 3px #cc66ff;
+    border-radius: 25px;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    width: 100px;
+    margin: 8% 35% 0% 1%;
+}
+
 #boton_especial{ 
 	background:-moz-linear-gradient(#fc0 0%,#F60 100%); 
 	background:-ms-linear-gradient(#fc0 0%,#F60 100%);
@@ -207,9 +226,4 @@ a{
 	border-radius: 0% 0% 0% 0%;
 	border: 0% ridge #000;
 	overflow: hidden;
-}
-
-input[type="text"]{
-	width: 31%;
-	padding: 1%;
 }
