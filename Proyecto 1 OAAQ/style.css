@@ -23,59 +23,6 @@ input[type="user"], input[type="password"], input[type="text"]{
 	padding: 1% 11% 1% 8%;
 }
 
-/**
-p.ex {
-    margin: 0px 300px;
-    width: 40%;
-    text-align: center;
-   
-}
-
-h1{
-	 width: 10%;
-	margin: 40px 300px;
-	color: #000000;
-	text-align: center;
-}.required {	color: red;}
-
-input.required {
-	border: 2px solid red;
-}
-
-div.form-general-info span.required 
-{
-	color: blue;
-}	
-
-	h3 {
-	color: #000000;
-	text-align: left;
-	
-  
-
-}.required {	color: red;}
-
-input.required {
-	border: 2px solid red;
-}
-
-div.form-general-info span.required 
-{
-	color: blue;
-}
-
-input.required {
-	border: 2px solid red;
-}
-
-div.form-general-info span.required 
-{
-	color: blue;
-}
-div.img img{
-
-}
-**/
 #boton{ 
 	background:-moz-linear-gradient(#fc0 0%,#F60 100%); 
 	background:-ms-linear-gradient(#fc0 0%,#F60 100%);
@@ -158,23 +105,20 @@ div.img img{
  overflow: hidden;
 }
 
-.menu{
-	float: left;
-}
-
-.menu ul{
+.opciones ul{
+	list-style: none;
 	margin-top: 13px;
 }
 
-.menu li{
-	display: inline-block;
-	padding: 5px 0;
+.opciones li{
+	
+	 padding: 20% 0;
 	text-align: center;
 	border-width: 2px;
-	width: 200px;
+    width: 80%;
 	border-color: #ffffff;
 }
-.menu li a{
+.opciones li a{
 	color: #ffffff;
 	border: 1px dashed #ffffff;
 	text-decoration: none;
@@ -188,20 +132,27 @@ div.img img{
 }
 
 .minicontenedor{
-	width: 100%;
+	float: right;
+	width: 80%;
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.opciones{
+	float: left;
+	width: 20%;
 	max-width: 1100px;
 	margin: 0 auto;
 }
 
 table{
 	background: white;
-	clear: both;
-	height: 166px;
-	width: 100%;
-	max-width: 1100px;
-	text-align: center;
-	border-collapse: collapse;
-	margin: 5% 0% 0% 9%;
+    clear: both;
+    height: 166px;
+    width: 80%;
+    max-width: 1100px;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 5% 0% 0% 9%;
 }
 
 table td, table tr{
@@ -226,4 +177,13 @@ a{
 	border-radius: 0% 0% 0% 0%;
 	border: 0% ridge #000;
 	overflow: hidden;
+}
+.opciones ul{
+	margin-top: 3%
+	padding: 5px 0;
+	text-align: center;
+	border-width: 2px;
+	width: 200px;
+	border-color: #ffffff;
+
 }
