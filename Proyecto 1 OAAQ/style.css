@@ -9,10 +9,20 @@ body {
 	
 }
 
-input[type="user"], input[type="password"], input[type="text"]{
-	width: 31%;
-	padding: 1%;
+input[type="user"] input[type="asunto"]{
+	width: 45%;
+	padding: 30%;
 }
+
+input[type="text"]{
+	width: 77%;
+	padding: 6% 0% 16% 20%;
+	}
+	textarea{
+		width:380px;
+		height: 90px
+	}
+
 
 #user, #password{
 	max-width: 67%;
@@ -169,6 +179,15 @@ a{
 }
 
 #new_usuario{
+	margin: 1% 9% 0% 9%;
+	text-align: left;	
+	background: #f0f0f0;
+	padding:3%;
+	border-radius: 0% 0% 0% 0%;
+	border: 0% ridge #000;
+	overflow: hidden;
+}
+#correo_nuevo{
 	margin: 1% 9% 0% 9%;
 	text-align: left;	
 	background: #f0f0f0;
