@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<link rel="Stylesheet" href="style.css" type="text/css">
-	<title>Editar Correo2</title>
+	<title>Detalle de Correo Enviado2</title>
 
 </head>
 <!--Este es el cuerpo de la pagina-->
@@ -25,20 +25,19 @@
 			<div class = "minicontenedor">
 
 				<div id= "descripcion">
-					<h2> EDITAR CORREO</h2>					
+					<h2> DETALLE DE  CORREO</h2>					
 				</div>
 
 
 			</div>			
 			<form id = "correo_nuevo" action="creacion nuevo trabajo.html" method="POST">
 				<h3> Para : </h3>				
-				<input type="email" name="email" required placeholder="Oscar Araya"/>
+				<input type="email" name="email" required placeholder="arayaos1713@hotmail.com"/>
 				<h3> Asunto : </h3>
-				<input type="asunto" name="Trabajo" placeholder="Proyecto web terminado"/>
+				<input type="asunto" name="Trabajo" placeholder="Programacion en css pruebas"/>
 				<h3> Contenido : </h3>
-				<textarea placeholder="Por este medio me complace indicar que se concluyo con este proyecto,siendo la calificacion de un 100"></textarea>				
-				<a href="Registro_de_Usuarios.html" id="boton_registro">Enviar</a>
-				<a id = "boton_registro" href="Bandeja de Salida.html"> Cancelar </a>
+				<textarea readonly= "">Estamos realizando algunas pruebas en nuestro software lamentamos las molestias del caso</textarea>				
+				<a id = "boton_registro" href="Bandeja de Salida.html"> Salir </a>
 			</form>
 		</div>	
 	</div>
